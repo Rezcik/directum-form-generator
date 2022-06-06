@@ -17,7 +17,7 @@ export function Load({setData}) {
 
     return (
         <div>
-            <input type="file" ref={fileRef} onChange={() => getData()}/>
+            <input type="file" accept=".json" ref={fileRef} onChange={() => getData()}/>
         </div>
     );
 }
