@@ -1,5 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
-import styles from "./load.module.css";
+import React, {useRef} from 'react';
 
 export function Load({setData}) {
     const fileRef = useRef(null);
